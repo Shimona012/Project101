@@ -40,7 +40,7 @@ while response=="Y":
         print(" [0   0]")
         print(" [-----]")
         
-    response = input("\n","Do you want to quit or Roll-the-Dice again? enter Y to restart or N to end: ")
+    response = input("\n Do you want to quit or Roll-the-Dice again? enter Y to restart or N to end: ") 
     if response.upper() == "Y": #go back to the top
         continue    
     print("Bye... Thank you for using our app!")
