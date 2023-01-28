@@ -1,5 +1,6 @@
 import random
-while True:
+response="Y"
+while response=="Y":
     print("Welcome to Dice Simulator")
     no=random.randint(1,6)
     if no == 1:
